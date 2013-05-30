@@ -20,7 +20,7 @@
     "require": {
         "php": ">=5.2.0",
         "composer/installers": "*",
-        "leafo/less": ">=v0.3.9"
+        "leafo/lessphp": ">=v0.3.9"
     },
     "config": {
         "vendor-dir": "Vendor"
