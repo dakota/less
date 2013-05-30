@@ -22,9 +22,9 @@
 App::uses('Folder', 'Utility');
 App::uses('File', 'Utility');
 App::uses('Component', 'Controller');
-App::import('Vendor', 'Less.Lessify',
+App::import('Vendor', 'CakephpLess.Lessify',
   array(
-    'file' => 'lessphp' . DS . 'lessify.inc.php'
+    'file' => 'leafo' . DS . 'lessphp' . DS . 'lessify.inc.php'
   )
 );
 

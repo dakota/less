@@ -19,19 +19,19 @@ to your composer.json file.
 
 If you are developing your application with Git already, you can install the plugin as a submodule. In your git base folder type
 
-    git submodule add https://github.com/dakota/less.git Plugin/Less
+    git submodule add https://github.com/dakota/less.git Plugin/CakephpLess
 
 #### Git clone
 
 In your plugin directory type
 
-    git clone https://github.com/Dakota/less.git Less
+    git clone https://github.com/Dakota/less.git CakephpLess
 
 ### Initialize lessphp submodule and download files
 
 If you are using Composer, you can skip this step.
 
-In the plugin folder ('Plugins/Less') type
+In the plugin folder ('Plugins/CakephpLess') type
 
     git submodule init
     git submodule update
@@ -45,7 +45,7 @@ In the plugin folder ('Plugins/Less') type
 ## Usage
 Where you want to use LESS files, add the helper. Usually this will be your `AppController`.
 
-	public $helpers = array('Less.Less');
+	public $helpers = array('CakephpLess.Less');
 
 Next, simply add the less files to your views:
 
