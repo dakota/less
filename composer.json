@@ -1,0 +1,28 @@
+{
+    "name": "dakota/cakephp_less",
+    "description": "CakePHP plugin that converts your .less files to .css using only PHP",
+    "type": "cakephp-plugin",
+    "keywords": ["less","cakephp","css"],
+    "homepage": "http://github.com/dakota/less",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stef van den Ham",
+            "homepage": "https://github.com/Hyra",
+            "role": "Developer"
+        },
+        {
+            "name": "Walther Lalk",
+            "homepage": "https://github.com/dakota",
+            "role": "Developer"
+        }        
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "composer/installers": "*",
+        "leafo/less": ">=v0.3.9"
+    },
+    "config": {
+        "vendor-dir": "Vendor"
+    }
+}
